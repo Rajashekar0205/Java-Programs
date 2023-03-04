@@ -6,6 +6,7 @@ public class Armstrong {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//An Armstrong number is a number whose sum of the cubes of its digits equals the number itself
 		Scanner scan=new Scanner(System.in);
 		System.out.println("enter the number");
 		int n=scan.nextInt();

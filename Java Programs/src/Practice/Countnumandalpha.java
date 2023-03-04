@@ -7,13 +7,14 @@ public class Countnumandalpha {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scan=new Scanner(System.in);
-		System.out.println("eter the string");
+		System.out.println("Enter the string");
 		String str=scan.nextLine();
 		
 		int lowercase=0;
 		int uppercase=0;
 		int digits=0;
 		int other=0;
+		
 		
 		for(int i=0;i<str.length();i++)
 		{
@@ -25,11 +26,11 @@ public class Countnumandalpha {
 					}
 			else if(Character.isLowerCase(a))
 			{
-		lowercase++;
+		      lowercase++;
 			}
 			else if(Character.isDigit(a))
 			{
-		digits++;
+		        digits++;
 			}
 			else
 			{
